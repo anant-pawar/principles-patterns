@@ -10,7 +10,6 @@ abstract class Vehicle {
 }
 
 class TwoWheeler extends Vehicle {
-
     @Override
     public void printVehicle() {
         System.out.println("I am two wheeler");
@@ -26,20 +25,14 @@ class FourWheeler extends Vehicle {
 
 class VehicleFactory {
     public static Vehicle getVehicle(VehicleType vehicleType) {
-        Vehicle vehicle = null;
-
         switch (vehicleType) {
             case TwoWheeler:
-                vehicle = new TwoWheeler();
-                break;
+                return new TwoWheeler();
             case FourWheeler:
-                vehicle = new FourWheeler();
-                break;
+                return new FourWheeler();
             default:
-                vehicle = new TwoWheeler();
-                break;
+                return null;
         }
-        return vehicle;
     }
 }
 
@@ -49,6 +42,4 @@ public class FactoryDemo {
         Vehicle vehicle = VehicleFactory.getVehicle(VehicleType.FourWheeler);
         vehicle.printVehicle();
     }
-
-
 }
