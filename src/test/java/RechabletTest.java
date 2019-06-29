@@ -1,4 +1,4 @@
-import com.design.practice.Reachable;
+import com.design.algorithm.Reachable;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

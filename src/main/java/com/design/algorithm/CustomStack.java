@@ -1,4 +1,4 @@
-package com.design.practice;
+package com.design.algorithm;
 
 public class CustomStack {
      int[] data;

@@ -1,4 +1,4 @@
-package com.design.practice;
+package com.design.algorithm;
 
 import java.util.Arrays;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-import com.design.practice.BraceChecker;
+import com.design.algorithm.BraceChecker;
 import org.junit.Assert;
 import org.junit.Test;
 

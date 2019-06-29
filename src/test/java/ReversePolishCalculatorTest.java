@@ -1,4 +1,4 @@
-import com.design.practice.ReversePolishCalculator;
+import com.design.algorithm.ReversePolishCalculator;
 import org.junit.Assert;
 import org.junit.Test;
 

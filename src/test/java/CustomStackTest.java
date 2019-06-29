@@ -1,4 +1,4 @@
-import com.design.practice.CustomStack;
+import com.design.algorithm.CustomStack;
 import org.junit.Test;
 
 public class CustomStackTest {
