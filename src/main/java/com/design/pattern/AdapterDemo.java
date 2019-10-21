@@ -43,6 +43,7 @@ class BirdAdapter implements ToyBird {
     }
 }
 
+//Main method to create bird sound
 public class AdapterDemo {
 
     public static void main(String[] args) {
