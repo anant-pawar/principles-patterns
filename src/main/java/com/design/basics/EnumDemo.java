@@ -1,5 +1,6 @@
 package com.design.basics;
 
+//Supported colors,will add orange and yello later.
 enum Color{
     RED, GREEN;
 
@@ -8,6 +9,7 @@ enum Color{
     }
 }
 
+//Traffic signal 
 enum TrafficSignal{
     RED("Red Sinal"),
     YELLOW("Yellow Sinal");
